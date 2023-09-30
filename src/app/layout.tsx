@@ -2,9 +2,9 @@ import Header from "@/components/Header/header";
 import "./globals.css";
 
 export const metadata = {
-  title: "Reelife by Paxify | Where Dreams Embrace Execution.",
+  title: "Paxify | Where Dreams Embrace Execution.",
   description:
-    "With Paxify you can elevate Your Website with Seamless Innovation and Simplicity",
+    "With Paxify you can elevate Your Business with Seamless Innovation and Simplicity",
 };
 
 export default function RootLayout({

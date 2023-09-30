@@ -13,10 +13,20 @@
   gap: 10px;
   width: 250px;
   display: flex;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   align-items: flex-end;
   color: var(--primary);
+}
+
+.logoContainer i {
+  font-size: 60px;
+}
+
+.logoContainer span {
+  position: relative;
+  left: -10px;
+  top: -10px;
 }
 
 .navMenuFlex {
@@ -253,5 +263,21 @@
     margin-top: 5px;
     margin-bottom: 5px;
     transition: transform 300ms ease-out;
+  }
+
+  .logoContainer i {
+    font-size: 35px;
+  }
+
+  .logoContainer span {
+    font-size: 22px;
+    position: relative;
+    left: -10px;
+    top: -5px;
+  }
+
+  .companyType {
+    position: relative;
+    left: -15px;
   }
 }

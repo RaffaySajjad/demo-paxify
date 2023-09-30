@@ -44,6 +44,21 @@
   margin: 75px 0;
 }
 
+.footerLogo {
+  display: flex;
+}
+
+.footerLogo i {
+  font-size: 100px;
+}
+
+.footerLogo span {
+  position: relative;
+  top: 75px;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
 .footerBottom {
   display: flex;
   text-align: right;
@@ -157,5 +172,16 @@
 
   .footerBottom {
     gap: 40px;
+  }
+
+  .footerLogo i {
+    font-size: 60px;
+  }
+
+  .footerLogo span {
+    position: relative;
+    top: 35px;
+    letter-spacing: 10px;
+    font-size: 30px;
   }
 }

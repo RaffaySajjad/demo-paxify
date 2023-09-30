@@ -13,20 +13,20 @@ const navLinks = [
     href: "#home",
   },
   {
+    name: "Projects",
+    href: "#showcase",
+  },
+  {
+    name: "Services",
+    href: "#services",
+  },
+  {
     name: "Features",
     href: "#features",
   },
   {
-    name: "Showcase",
-    href: "#showcase",
-  },
-  {
-    name: "Stories",
-    href: "#stories-demo",
-  },
-  {
-    name: "Pricing",
-    href: "#pricing",
+    name: "About",
+    href: "#about",
   },
 ];
 
@@ -127,15 +127,16 @@ const Header: React.FC = () => {
         <div className={styles.navMenuFlex}>
           <Link href="/" className={styles.wNavBrand}>
             <div className={styles.logoContainer}>
-              <Image
+              {/* <Image
                 src="/assets/logo/logo.png"
                 loading="lazy"
                 alt=""
                 width={146}
                 height={50}
                 className="logo"
-              />
-              By Paxify
+              /> */}
+              <i>P</i>
+              <span>axify</span>
             </div>
           </Link>
           <ul
@@ -158,9 +159,9 @@ const Header: React.FC = () => {
           </ul>
           <div className={styles.navBarButtonWrapper}>
             <a
-              href={USER_DASHBOARD()}
+              href="mailto:support@paxify.io?subject=I want to know more about Paxify!"
               className={`${styles.button} ${styles.buttonCcSmall} ${styles.wButton}`}>
-              Dashboard
+              Contact
             </a>
           </div>
         </div>
@@ -181,15 +182,17 @@ const Header: React.FC = () => {
               className={`${styles.navbarBrandMobile} ${styles.wNavBrand} ${styles.wCurrent}`}
               aria-label="home">
               <div className={styles.logoContainer}>
-                <Image
-                  src="/assets/logo/logo.png"
-                  loading="lazy"
-                  alt=""
-                  width={119.5}
-                  height={38}
-                  className="logo"
-                />
-                By Paxify
+                {/* <Image
+                src="/assets/logo/logo.png"
+                loading="lazy"
+                alt=""
+                width={146}
+                height={50}
+                className="logo"
+              /> */}
+                <i>P</i>
+                <span>axify</span>
+                <div className={styles.companyType}>LLC.</div>
               </div>
             </a>
             <div

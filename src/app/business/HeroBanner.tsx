@@ -100,6 +100,7 @@ const Mobile = styled("div")`
   padding: 0 16px;
   display: flex;
   flex-direction: column;
+  padding-top: 80px;
 
   ${mq.medium} {
     display: none;
@@ -118,7 +119,6 @@ const HeroBanner = ({ image, heading, body, buttons = [] }) => {
               <Button
                 key={button.text}
                 primary={button.type === "primary"}
-                onClick={() => navigateSSr(button.cta)}
                 label={button.text}
               />
             ))}
@@ -133,7 +133,7 @@ const HeroBanner = ({ image, heading, body, buttons = [] }) => {
   };
 
   return (
-    <Container>
+    <Container id="home">
       <Desktop>{_renderBodyContent("desktop")}</Desktop>
       <Mobile>{_renderBodyContent("mobile")}</Mobile>
     </Container>

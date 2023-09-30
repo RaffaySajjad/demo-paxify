@@ -22,14 +22,14 @@ const TOP_FEATURES: IFeatureProps[] = [
     id: 1,
     title: "Easy to Use",
     description:
-      "Seamlessly add captivating reels and stories to your website with our easy-to-use, non-technical installation. User-friendliness guaranteed!",
+      "Seamless and modern solutions for your business with our easy-to-use, non-technical installation. User-friendliness guaranteed!",
     src: "/assets/icons/easy-to-use.svg",
   },
   {
     id: 2,
     title: "Deep Analytics",
     description:
-      "Gain powerful insights with our component's comprehensive analytics, unlocking the full potential of your stories.",
+      "Gain powerful insights. Automate your workflows for improved performance and transparency throughout the supply chain.",
     src: "/assets/icons/analytics.svg",
   },
   {
@@ -47,8 +47,7 @@ const Features: React.FC = () => {
       id="features"
       className={`${styles.container} ${poppins.className}`}>
       <div className={styles.headline}>
-        Discover the <span>Key Features</span> of Reels Component: Elevate Your
-        Website Engagement!
+        Discover the <span>Key Features</span> of Paxify: Elevate Your Business!
       </div>
       <div className={styles.features}>
         {TOP_FEATURES.map((feature: IFeatureProps) => (

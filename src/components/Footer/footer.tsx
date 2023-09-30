@@ -23,7 +23,7 @@ const socials = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className={styles.footer}>
+    <footer id="about" className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.footerCta}>
           <div className={styles.label}>
@@ -34,13 +34,17 @@ const Footer: React.FC = () => {
         <hr className={styles.divider} />
         <div className={styles.footerBottom}>
           <div className={styles.flex}>
-            <Image
+            {/* <Image
               className={styles.logo}
               width={300}
               height={100}
               src="/assets/logo/logoV2.png"
               alt="logo"
-            />
+            /> */}
+            <div className={styles.footerLogo}>
+              <i>P</i>
+              <span>axify</span>
+            </div>
           </div>
           <div className={styles.flex}>
             <div className={styles.socials}>
@@ -57,7 +61,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div>
-              <a href="tel:0016187653638">+1 (618) 765 3638</a>
+              <a href="tel:0013237391571">+1 (323) 739 1571</a>
               <br />
               <a href="mailto:support@paxify.io?subject=Support Request&body=Hello Paxify Support, I need help with...">
                 support@paxify.io
