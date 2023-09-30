@@ -31,8 +31,8 @@ export default function Main() {
           src: "/planto-business-solutions/home/mobile/business-landing.png",
         },
       },
-      heading: "Defining the future of FinTech",
-      body: "Business and retail consumers are looking to engage with financial service providers who can offer innovative services that go beyond offering traditional banking products online",
+      heading: "Defining the future of Businesses",
+      body: "Business and retail consumers are looking to engage with innovative service providers who can offer innovative services that go beyond offering traditional solutions",
       buttons: [
         {
           text: "Contact us today!",
